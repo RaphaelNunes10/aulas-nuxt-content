@@ -4,7 +4,7 @@
  Útil para montar layout padrão para todas as páginas
 -->
 <template>
-  <main class="container mx-auto prose">
+  <main class="container p-2 mx-auto prose">
     <!-- Remover e subistituir por coponentes e/ou elementos de sua preferência -->
     <h1>App (Layout Padrão)</h1>
     <!-- --- -->

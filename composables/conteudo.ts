@@ -16,7 +16,7 @@ export const useConteudo = (rotaMateria: string | string [] = '', rotaModulo: st
   const tituloModulo = computed(() => limparUrl(rotaModulo as string));
   
   /**
-  * useAsyncData: Captura dados no servidor, antes de enviar para o navegaador do cliente (com SSR ativo nas configurações do Nuxt)
+  * useAsyncData: Captura dados no servidor, antes de enviar para o navegador do cliente (com SSR ativo nas configurações do Nuxt)
   * fetchContentNavigation: Retorna objeto contendo informações dos item dentro da pasta "content" em "data", no caso renomeado para "conteudo"
   */
   const { data: materias } = useAsyncData('materias', () => fetchContentNavigation());
